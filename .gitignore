@@ -1,0 +1,13 @@
+node_modules/
+.data/
+.DS_Store
+
+# Local skill installations and their recovery backups
+.agents/skills/
+.claude/skills/
+.codex/skills/
+
+# Local credentials
+.env
+.env.*
+!.env.example

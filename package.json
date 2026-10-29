@@ -1,0 +1,9 @@
+{
+  "name": "skills-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs", "mockup": "node mockup.mjs", "test": "node --test" },
+  "dependencies": { "yaml": "^2.8.1" }
+}
